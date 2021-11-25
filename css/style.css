@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
+/* background - color */
+.bg_nav {background-color: #fff;}
+/* end background - color */
+
+/* nav */
 .btn-base {
     border-radius: 25px;
+}
+
+.space {
     margin: 0 24px;
 }
 
@@ -13,4 +21,34 @@
     color: #fff;
     background-color: #010101;
     border: 1px solid #010101;
+}
+
+.brand {
+    color: #fff;
+    background-color: #d13d10;
+    background-color:#d13d10;
+}
+
+/* end nav */
+
+/* hero-banner */
+.cover {
+    position: relative;
+    top: 76px;
+    min-height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: #fff;
+}
+
+/* end hero-banner */
+
+.container .row .col {
+    height: 200px;
+    border:1px solid red;
+}
+
+.logo_box img {
+    width: 100%;
 }
