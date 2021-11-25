@@ -33,22 +33,25 @@
 
 /* hero-banner */
 .cover {
-    position: relative;
-    top: 76px;
-    min-height: 600px;
+    min-height: 700px;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center 76px;
     color: #fff;
 }
 
 /* end hero-banner */
 
 .container .row .col {
-    height: 200px;
     border:1px solid red;
 }
 
 .logo_box img {
     width: 100%;
 }
+
+/* carousel */
+.carousel img {
+    width: 100%;
+} 
+/* end-carousel */
