@@ -46,7 +46,7 @@
 /* end-button */
 
 /* hero-banner */
-.cover {
+.cover_hero {
     min-height: 700px;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -99,4 +99,13 @@
 }
 /* end strip-txt-center */
 
+/* hero-banner */
+.cover_banner {
+    min-height: 900px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    color: #fff;
+}
+/* end hero-banner */
 
