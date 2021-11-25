@@ -8,7 +8,7 @@
 .bg_nav {background-color: #fff;}
 /* end background - color */
 
-/* nav */
+/* button */
 .btn-base {
     border-radius: 25px;
 }
@@ -29,7 +29,12 @@
     background-color:#d13d10;
 }
 
-/* end nav */
+.default {
+    color: #fff;
+    background-color: #2964e5;
+    background-color:#2964e5;
+}
+/* end-button */
 
 /* hero-banner */
 .cover {
@@ -67,3 +72,7 @@
     text-align: center;
 }
 /* end strip-txt-center */
+
+.text_img img {
+    width: 100%;
+}
