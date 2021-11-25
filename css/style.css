@@ -101,11 +101,27 @@
 
 /* hero-banner */
 .cover_banner {
-    min-height: 900px;
+    position: relative;
+    height: 800px;
+    min-height: 400px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: top center;
+    background-size: 2560px auto;
     color: #fff;
+}
+
+.above_content {
+    position: relative;
+    z-index: 999;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 /* end hero-banner */
 
