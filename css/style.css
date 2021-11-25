@@ -55,3 +55,15 @@
     width: 100%;
 } 
 /* end-carousel */
+
+/* strip-txt-center */
+.strip_text_center {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.content_strip {
+    text-align: center;
+}
+/* end strip-txt-center */
