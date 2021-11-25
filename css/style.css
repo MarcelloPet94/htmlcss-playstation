@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+/* default settings */
+
+.trade_mark {
+    color: slategrey;
+    margin: 4px;
+}
+
+/* end default settings */
+
 /* background - color */
 .bg_nav {background-color: #fff;}
 /* end background - color */
@@ -47,10 +56,6 @@
 
 /* end hero-banner */
 
-.container .row .col {
-    border:1px solid red;
-}
-
 .logo_box img {
     width: 100%;
 }
@@ -71,8 +76,27 @@
 .content_strip {
     text-align: center;
 }
-/* end strip-txt-center */
 
 .text_img img {
     width: 100%;
 }
+
+.carousel_5 .col {
+    padding: 20px;
+}
+
+.active {
+    border-bottom: 2px solid #2964e5;
+}
+
+.carousel_5 p {
+    text-align: center;
+    margin: 0;
+}
+
+.carousel_5 img {
+    width: 100%;
+}
+/* end strip-txt-center */
+
+
