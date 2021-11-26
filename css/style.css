@@ -36,6 +36,12 @@
     border: 1px solid #010101;
 }
 
+.light {
+    color: #010101;
+    background-color: #fff;
+    background-color:#fff;
+}
+
 .brand {
     color: #fff;
     background-color: #d13d10;
@@ -158,3 +164,28 @@
 }
 
 /* end banner bg color */
+
+
+/* playstation now */
+.cover_now {
+    background-color:#161c3b;
+    color: #fff;
+}
+
+/* social */
+.social_strip {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.social_icon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.social_icon img {
+    padding: 8px;
+    width: 20%;
+}
+/* end-social */
