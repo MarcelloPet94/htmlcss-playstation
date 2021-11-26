@@ -178,3 +178,44 @@
     width: 100%;
 }
 /* end-social */
+
+/* footer */
+footer {
+    background-color:#00439c;
+    color: #fff;
+}
+
+.footer_ps_logo {
+    padding: 0 0 40px;
+}
+
+.footer_ps_logo img {
+    width: 130px;
+}
+
+.register_mark img {
+    width: 140px;
+}
+
+.change_country img {
+    width: 24px;
+}
+
+.change_country p {
+    margin-left: 8px;
+}
+
+.change_country p {
+    display: inline-block;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    list-style-position:outside;
+    padding-left: 0;
+}
+/* end-footer */
