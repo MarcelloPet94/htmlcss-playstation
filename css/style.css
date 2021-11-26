@@ -131,7 +131,6 @@
 /* end hero-banner */
 
 /* wall-cover */
-
 .bg_wall {
     background-color:#1f1f1f;
     color: #fff;
@@ -140,5 +139,10 @@
 .bg_wall p {
     margin-top: 16px;
 }
-
 /* end-wall-cover */
+
+
+/* grid-3 */
+.grid_3 p {
+}
+/* end-grid-3 */
