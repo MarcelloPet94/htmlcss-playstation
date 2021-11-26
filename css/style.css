@@ -173,19 +173,8 @@
 }
 
 /* social */
-.social_strip {
-    margin: 0 auto;
-    width: 700px;
-}
 
-.social_icon {
-    display: flex;
-    justify-content: center;
+.social_strip .col img {
     width: 100%;
-}
-
-.social_icon img {
-    padding: 8px;
-    width: 20%;
 }
 /* end-social */
