@@ -11,6 +11,10 @@
     margin: 4px;
 }
 
+.w {
+    color: #fff;
+}
+
 /* end default settings */
 
 /* background - color */
@@ -51,6 +55,7 @@
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: center 76px;
+    background-size: 1800px auto;
     color: #fff;
 }
 
@@ -125,3 +130,15 @@
 }
 /* end hero-banner */
 
+/* wall-cover */
+
+.bg_wall {
+    background-color:#1f1f1f;
+    color: #fff;
+}    
+
+.bg_wall p {
+    margin-top: 16px;
+}
+
+/* end-wall-cover */
