@@ -219,3 +219,24 @@ ul li {
     padding-left: 0;
 }
 /* end-footer */
+
+/* nav drop-down */
+
+.drop_nav_img {
+    text-align: center;
+    transition: box-shadow .1s;
+}
+
+.drop_nav_img:hover {
+    box-shadow: 3px 5px 8px 8px rgba(136, 136, 136, 0.3);
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: fixed;
+        top: 73px;
+        width: 100%;
+    }
+}
+
+/* end nav drop-down */
