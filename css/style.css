@@ -141,8 +141,20 @@
 }
 /* end-wall-cover */
 
+/* banner bg color */
 
-/* grid-3 */
-.grid_3 p {
+.cover_bg {
+    background-color: #bebcbb;
+    color: #fff;
 }
-/* end-grid-3 */
+
+.img_box {
+    width: 400px;
+    margin-bottom: 32px;
+}
+
+.left_img img {
+    width: 100%;
+}
+
+/* end banner bg color */
