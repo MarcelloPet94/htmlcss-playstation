@@ -25,11 +25,11 @@
 .btn-base {
     border-radius: 25px;
 }
-
+/*
 .space {
     margin: 0 24px;
 }
-
+*/
 .dark {
     color: #fff;
     background-color: #010101;
@@ -224,6 +224,7 @@ ul li {
 
 .drop_nav_img {
     text-align: center;
+    margin: 8px;
     transition: box-shadow .1s;
 }
 
@@ -238,5 +239,16 @@ ul li {
         width: 100%;
     }
 }
+
+@media (max-width: 992px) {
+    .mob_only {
+        width: 50%;
+    }
+    .search_mob_only{
+        width: 100%;
+        padding: 8px;
+    }
+}
+
 
 /* end nav drop-down */
