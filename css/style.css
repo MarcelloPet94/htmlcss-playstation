@@ -34,8 +34,8 @@
     display: block;
     position: absolute;
     top: 10%;
-    left: 4%;
-    width: 92%;
+    left: 2%;
+    width: 96%;
     height: 81%;
     border-radius: 28px;
     border: 2px solid #fff;
@@ -46,8 +46,8 @@
     display: block;
     position: absolute;
     top: 10%;
-    left: 4%;
-    width: 92%;
+    left: 2%;
+    width: 96%;
     height: 81%;
     border-radius: 28px;
     border: 2px solid #010101;
@@ -75,6 +75,14 @@
     color: #fff;
     background-color: #2964e5;
     background-color:#2964e5;
+}
+
+.btn_shadow {
+    color: #2964e5;
+}
+
+.btn_shadow:hover {
+    box-shadow: 3px 5px 8px 8px rgba(255,255,255, 0.1);
 }
 /* end-button */
 
@@ -176,13 +184,15 @@
 }
 
 .carousel_5 p {
-    text-align: center;
     margin: 0;
 }
 
+.opacity_effect img {
+    padding: 24px;
+} 
+
 .carousel_5 img {
     width: 100%;
-    padding: 24px;
 }
 /* end strip-txt-center */
 
@@ -231,7 +241,8 @@
 }
 
 .img_box {
-    width: 400px;
+    width: 300px;
+    min-width: 100px;
     margin-bottom: 32px;
 }
 
