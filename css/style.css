@@ -86,7 +86,31 @@
 }
 /* end-button */
 
+/* strip */
+
+.strip {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 40px;
+    background-color: #010101;
+    z-index: 9999;
+}
+
+.strip img {
+    padding: 12px;
+    height: 100%;
+}
+
+/* end-strip */
+
 /* nav */
+
+.fixed-top {
+    top: 40px;
+}
 
 .nav-link img:nth-child(2) {
     display: none;
@@ -328,6 +352,15 @@ ul li {
 }
 
 @media (max-width: 992px) {
+    
+    .strip {
+        display: none;
+    }
+
+    .fixed-top {
+        top: 0px;
+    }
+    
     .mob_only {
         width: 50%;
     }
