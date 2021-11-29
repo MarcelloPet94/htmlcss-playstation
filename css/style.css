@@ -78,6 +78,37 @@
 }
 /* end-button */
 
+/* nav */
+
+.nav-link img:nth-child(2) {
+    display: none;
+}
+
+.nav-link {
+    color: #010101;
+}
+
+.nav-link img {
+    padding: 8px;
+    width: 24px;
+}
+
+.nav-link:hover {
+    color: #2964e5;
+}
+
+.nav-link:hover img:nth-child(1) {
+    display: none;
+}
+
+.nav-link:hover img:nth-child(2) {
+    display: block;
+    transform: rotate(180deg);
+}
+
+
+/* end-nav */
+
 /* hero-banner */
 .cover_hero {
     min-height: 700px;
