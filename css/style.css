@@ -160,13 +160,13 @@
     width: 100%;
 }
 
-.carousel_5 .col {
+.opacity_effect .col {
     padding: 20px;
-    opacity: 0.9;
+    opacity: 0.8;
     transition: opacity 0.5s;
 }
 
-.carousel_5 .col:hover {
+.opacity_effect .col:hover {
     opacity: 1;
     cursor: pointer;
 }
