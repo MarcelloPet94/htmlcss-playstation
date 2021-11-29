@@ -162,6 +162,13 @@
 
 .carousel_5 .col {
     padding: 20px;
+    opacity: 0.9;
+    transition: opacity 0.5s;
+}
+
+.carousel_5 .col:hover {
+    opacity: 1;
+    cursor: pointer;
 }
 
 .active {
@@ -175,6 +182,7 @@
 
 .carousel_5 img {
     width: 100%;
+    padding: 24px;
 }
 /* end strip-txt-center */
 
