@@ -23,13 +23,36 @@
 
 /* button */
 .btn-base {
+    position: relative;
+    padding: 8px 16px;
+    border: none;
     border-radius: 25px;
 }
-/*
-.space {
-    margin: 0 24px;
+
+.border_white:hover::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    width: 92%;
+    height: 81%;
+    border-radius: 28px;
+    border: 2px solid #fff;
 }
-*/
+
+.border_dark:hover::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    width: 92%;
+    height: 81%;
+    border-radius: 28px;
+    border: 2px solid #010101;
+}
+
 .dark {
     color: #fff;
     background-color: #010101;
@@ -74,7 +97,21 @@
 /* carousel */
 .carousel img {
     width: 100%;
+    padding: 2px;
+    transition: transform .5s;
 } 
+
+.carousel img:hover {
+    transform:translateY(-5px);
+}
+
+.carousel img.active {
+    border: 2px solid #2964e5;
+}
+
+.radius_img {
+    border-radius: 25px;
+}
 /* end-carousel */
 
 /* strip-txt-center */
