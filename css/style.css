@@ -56,28 +56,28 @@
 .dark {
     color: #fff;
     background-color: #010101;
-    border: 1px solid #010101;
+    border: 2px solid #010101;
 }
 
 .light {
     color: #010101;
     background-color: #fff;
     background-color:#fff;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
 }
 
 .brand {
     color: #fff;
     background-color: #d13d10;
     background-color:#d13d10;
-    border: 1px solid #d13d10;
+    border: 2px solid #d13d10;
 }
 
 .default {
     color: #fff;
     background-color: #2964e5;
     background-color:#2964e5;
-    border: 1px solid #2964e5;
+    border: 2px solid #2964e5;
 }
 
 .btn_shadow {
